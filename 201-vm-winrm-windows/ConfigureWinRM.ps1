@@ -117,7 +117,7 @@ function Add-FirewallException
 #################################################################################################################################
 
 # Start Logging
-. "Logging_Functions.ps1"
+. ".\Logging_Functions.ps1"
 $FullLogPath = "C:\Windows\Temp\ConfigureWinRM.log"
 Log-Start -LogPath "C:\Windows\Temp" -LogName "ConfigureWinRM.log" -ScriptVersion "1.1"
 
